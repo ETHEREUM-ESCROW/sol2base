@@ -1,0 +1,5 @@
+bytes memory hookData = abi.encode(
+  0xUSER,           // destination address on Base (NOT the Twin)
+  0xBUILDER_CODE,   // your builder code in type string memory
+  100               // feeBps (100 = 1%)
+);
